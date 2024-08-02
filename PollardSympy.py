@@ -93,7 +93,7 @@ def main():
 
         factors = combined_factorization(number)
         formatted_factors = format_factors(factors)
-        print(f"Factors of {number}: {formatted_factors}")
+        print(f"Factors: {formatted_factors}")
 
 if __name__ == "__main__":
     main()
